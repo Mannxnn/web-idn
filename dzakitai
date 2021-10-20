@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8">
+    <meta name="dexcription" content="Membuat Website IDN Sederhana">
+
+    <title>Web IDN</title>
+
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <div id="branding">
+                    <h1>SMK <span class="highlight">IDN</span></h1>
+            </div>
+       
+
+        <nav>
+            <ul>
+                <li class="current"><a href="index.html"> Home </a></li>
+                <li><a href="about.html"> About </a></li>
+                <li><a href="service.html"> Service </a></li>
+            </ul>
+        </nav>
+    </div>
+    </header>
+    
+    <h2>Perkenalkan</h2>
+    <p>inilah jekitai</p>
+    
+    <p>hacktoberfest-accepted</p>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>Jagoan IT, Pinter Ngaji</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit sed quis rerum culpa molestiae, repellendus eius ipsa quo error suscipit sunt nesciunt deleniti, amet corrupti inventore corporis, quaerat harum provident.</p>
+        </div>
+    </section>
+
+    <section id="newsletter">
+        <div class="container alignment">
+            <h1>Subscribe untuk mendapatkan info terbaru</h1>
+            <form>
+                <input type="email" placeholder="Enter email...">
+                <input type="submit" value="Subscribe" class="button_1">
+            </form>
+        </container>
+    </section>
+
+    <section id="boxes">
+        <div class="container">
+            <div class="box">
+                <img src="/img/3.jpeg" alt="Logo IDN Baju Batik">
+                <h3>SMK IDN</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas officia perspiciatis molestiae vero minima, ad, id architecto ut deleniti quod veritatis recusandae explicabo est voluptates. Impedit magnam quaerat itaque nihil?</p>
+            </div>
+
+            <div class="box">
+                <img src="/img/1.jpeg" alt="IDN Foundation">
+                <h3>Yayasan IDN</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas officia perspiciatis molestiae vero minima, ad, id architecto ut deleniti quod veritatis recusandae explicabo est voluptates. Impedit magnam quaerat itaque nihil?</p>
+            </div>
+
+            <div class="box">
+                <img src="/img/2.jpeg" alt="Icon Laptop">
+                <h3>Jurusan</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas officia perspiciatis molestiae vero minima, ad, id architecto ut deleniti quod veritatis recusandae explicabo est voluptates. Impedit magnam quaerat itaque nihil?</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>SMK IDN Web Serponsive, Copyright &copy; 2021</p>
+    </footer>
+</body>
+</html>
